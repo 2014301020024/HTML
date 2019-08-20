@@ -40,6 +40,22 @@ HTML 标题（Heading）是通过 <h1> - <h6> 等标签进行定义的。
 HTML 段落是通过 <p> 标签进行定义的。浏览器会自动地在段落的前后添加空行。（<p> 是块级元素）
 --实例
   <p>This is a paragraph.</p>
+对于 HTML，无法通过在 HTML 代码中添加额外的空格或换行来改变输出的效果。
+当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。
+# 注意,HTML 代码中的所有连续的空行（换行）也被显示为一个空格。
+--实例
+  <html>
+        <body bgcolor='lightskyblue'>
+            <h1>春晓</h1>
+                <p>
+                   春眠不觉晓，
+                    处处闻啼鸟。
+                     夜来风雨声，
+                      花落知多少。
+                </p>
+        </body>
+   </html>
+   输出结果为：春眠不觉晓， 处处闻啼鸟。 夜来风雨声， 花落知多少。（不会出现换行）
 
 * HTML 链接
 HTML 链接是通过 <a> 标签进行定义的。在 href 属性中指定链接的地址。
@@ -120,8 +136,9 @@ HTML 元素以开始标签起始,以结束标签终止,元素的内容是开始�
   输出结果：This is
           a para
           graph with line breaks
+  每加入一个<br/>则多换一行，例如在para和graph中插入两个<br/>,则输出隔了两行。
   
-*建议元素均适用小写
+******建议元素均适用小写！！！！！！！！
 
 ###############################################################################################################################
  
@@ -132,9 +149,9 @@ HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信
    1.HTML 链接由 <a> 标签定义。链接的地址在 href 属性中指定：
    <a href="http://www.w3school.com.cn">This is a link</a>
 
-   2.<h1 align="center"> 拥有关于对齐方式的附加信息。
+   2.<h1 style="text-align:center"> 拥有关于对齐方式的附加信息。
 
-   3.<body bgcolor="yellow"> 拥有关于背景颜色的附加信息。
+   3.<body style="background=yellow"> 拥有关于背景颜色的附加信息。
 
    4.<table> 定义 HTML 表格。<table border="1"> 拥有关于表格边框的附加信息。
 
@@ -143,6 +160,23 @@ HTML 标签可以拥有属性。属性提供了有关 HTML 元素的更多的信
    name='Bill "HelloWorld" Gates'
 
 HTML属性手册：https://www.w3school.com.cn/tags/index.asp
+
+* HTML 的 style 属性
+style 属性的作用：提供了一种改变所有 HTML 元素的样式的通用方法。
+--实例
+  <html>
+  <body style="background-color:PowderBlue;">
+  <h1>Look! Styles and colors</h1>
+  <p style="font-family:verdana;color:red">
+  This text is in Verdana and red</p>
+  <p style="font-family:times;color:green">
+  This text is in Times and green</p> 
+  <p style="font-size:30px">This text is 30 pixels high</p>
+  </body>
+  </html>
+  # font-family、color 以及 font-size 属性分别定义元素中文本的字体系列、颜色和字体尺寸。
+  
+
 
 
   
