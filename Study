@@ -178,29 +178,86 @@ style 属性的作用：提供了一种改变所有 HTML 元素的样式的通�
   # font-family、color 以及 font-size 属性分别定义元素中文本的字体系列、颜色和字体尺寸。
 
 * HTML格式化
+--实例 
+  <b>...</b>               # 定义粗体文本
+  <strong>...</strong>     # 定义加重语气
+  <big>...</big>           # 定义大号字
+  <em>...</em>             # 定义着重文字
+  <i>...</i>               # 定义斜体字
+  <small>...</small>       # 定义小号字
+  <sub>...</sub>           # 定义下标字
+  <sup>...</sup>           # 定义上标字
+  <ins>...</ins>           # 定义插入字       ## <ins>二十</ins> 输出为：二十 两个字下划了横线
+  <del>...</del>           # 定义删除字       ## <del>二十</del> 输出为：二十 两个字中间划了横线
+   
+*计算机输出标签
+<code>	     # 定义计算机代码，不保留多余的空格和折行。
+<kbd>	       # 定义键盘码。
+<samp>       # 定义计算机代码样本。
+<tt>	       # 定义打字机代码。
+<var>	       # 定义变量。   
+  <var>E</var> = <var>m</var><var>c</var><sup>2</sup>
+    输出为：E=mc的平方
+ 
+<pre>        # 定义预格式文本。
+  
+*引用、引用和术语定义
+<abbr>	     # 定义缩写。
 --实例
-  <strong>This text is strong</strong>     #字体为strong
-  <big>This text is big</big>               字体为big
-  <em>This text is emphasized</em>          字体被emphasized
-  <i>This text is italic</i>                字体为italic
-  <small>This text is small</small>         字体为small
-  This text contains <sub>subscript</sub>   subscript为下标
-  This text contains <sup>superscript</sup> superscript为上标
+<abbr>likethat</abbr>
 
+<acronym>	   # 定义首字母缩写。
+--实例
+<acronym>"We Are Great!</acronym>  这里输出为：We Are Great！
+<abbr title="etcetera">etc.</abbr> 这里输出为： etc.  鼠标放上面会显示 etcetera
 
+<address>	   # 定义地址。
+--实例
+<!DOCTYPE html>
+<html>
+    <body>
+    <address>
+    Written by <a href="mailto:webmaster@example.com">Donald Duck</a>.<br> 
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>         #这里<br>与<br/>效用一样，用于换行
+    USA
+    </address>
+    </body>
+</html>
+输出为：
+Written by Donald Duck.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+
+<bdo>	       # 定义文字方向。
+--实例:bdo = bi-directional override
+  <bdo dir="rtl">Here is some Hebrew text</bdo>
+  输出为：txet werbeH emos si ereH
   
+<blockquote> # 定义长的引用。
+浏览器通常会对 <blockquote> 元素进行缩进处理。
+  <blockquote>
+  这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。
+  </blockquote>
   
+<q>	         # 定义短的引用语。 <q>这是短的引用。</q>
+--实例
+<html>
+<body>
+     <p>WWF 的目标是 <q>构建人与自然和谐相处的世界。</q></p>
+</body>
+</html>
+输出为：WWF 的目标是“构建人与自然和谐相处的世界。”
+#####使用 blockquote 元素的话，浏览器会插入换行和外边距，而 q 元素不会有任何特殊的呈现。
+
+<cite>	     # 定义引用、引证。
+<dfn>	       # 定义一个定义项目。 
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+*
   
   
   
