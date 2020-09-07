@@ -1,26 +1,38 @@
 Introduction about table in html
 
 1. The <table> element creates a table.
+   <table>元素创建一个表。
 
 2. The <tr> element adds rows to a table.
-
+   <tr>元素将行添加到表中。
+   
 3. To add data to a row, you can use the <td> element.
-
+   要将数据添加到行中，可以使用<td>元素。
+   
 4.Table headings clarify the meaning of data. Headings are added with the <th> element.
+  <th scope="col">Like</th> 其中 scope="col“ 代表Like为列标题，scope="row"则表示为行标题.
+  表标题阐明了数据的含义。 标题与<th>元素一起添加。
 
 5.Table data can span columns using the colspan attribute.
+  表数据可以使用colspan属性跨越列。
 
 6.Table data can span rows using the rowspan attribute.
+  表数据可以使用rowspan属性跨越行。
 
 7.Tables can be split into three main sections: a head, a body, and a footer.
+  表格可以分为三个主要部分：头，主体和页脚。
 
 8.A table’s head is created with the <thead> element.
+  表格的标题是使用<thead>元素创建的。
 
 9.A table’s body is created with the <tbody> element.
+  表格的主体是通过<tbody>元素创建的。
 
 10.A table’s footer is created with the <tfoot> element.
+   使用<tfoot>元素创建表格的页脚。
 
-11.All the CSS properties you learned about in this course can be applied to tables and their data.
+11.All the CSS properties can be applied to tables and their data.
+   所有CSS属性都可以应用于表及其数据。
 # ---------------------------------------------------------------------------------------------------------
 example:
 code:
