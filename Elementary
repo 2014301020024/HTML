@@ -1,34 +1,55 @@
 HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+HTML代表超文本标记语言，用于创建网页的结构和内容。
+
 Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+大多数HTML元素都包含开始和结束标签，中间包含原始文本或其他HTML标签。
+
 HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+HTML元素可以嵌套在其他元素内。 封闭元素是封闭父元素的子元素。
+
 # ------------------------------------------------------------------------------------------------------------------------------------------
 1. Any visible content should be placed within the opening and closing <body> tags.
+   任何可见的内容都应放在开始和结束<body>标记内。
 
 2. Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
+   标题和子标题<h1>至<h6>标记用于放大文本。
 
 3. <p>, <span> and <div> tags specify text or blocks.
+   <p>，<span>和<div>标记指定文本或块。
 
 4. The <em> and <strong> tags are used to emphasize text.
+   <em>和<strong>标记用于强调文本。
 
 5. Line breaks are created with the <br> tag.
+   使用<br>标签创建换行符。
 
 6. Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
+   对有序列表（<ol>）进行了编号，而无序列表（<ul>）则带有项目符号。
 
 7. Images (<img>) and videos (<video>) can be added by linking to an existing source.
+   可以通过链接到现有源来添加图像（<img>）和视频（<video>）。
 
 8. <!DOCTYPE html>, the declaration specifying the version of HTML for the browser.
+   <！DOCTYPE html>，该声明指定浏览器的HTML版本。
 
 9. The <html> tags that enclose all of your HTML code.
+   包含所有HTML代码的<html>标记。
 
 10. The <head> tag that contains the metadata of a webpage, such as its <title>.
+    <head>标记，包含网页的元数据，例如<title>。
 
 11. You can add a title to your web page by using the <title> element, inside of the head. A webpage’s title appears in a browser’s tab.
+    您可以使用标题内的<title>元素向网页添加标题。网页标题显示在浏览器的标签中。
 
 12. Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page. You can create sections on a webpage and jump to them using <a> tags and adding ids to the elements you wish to jump to.
-
+    锚标记（<a>）用于链接到内部页面，外部页面或同一页面上的内容。您可以在网页上创建部分，然后使用<a>标记跳转至这些部分，并向希望跳转的元素添加ID。
+    
 13. Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser. Indentation also helps make code easier to read. It makes parent-child relationships visible.
-
+    HTML元素之间的空格有助于使代码更易于阅读，同时不更改元素在浏览器中的显示方式。缩进还有助于使代码更易于阅读。它使父子关系可见。
+    
 14. Comments are written in HTML using the following syntax: <!-- comment -->.
+    注释使用以下语法以HTML编写：<！-注释->。
+
 # ------------------------------------------------------------------------------------------------------------------------------------------
 example:
 code:
