@@ -60,6 +60,8 @@ HTML元素可以嵌套在其他元素内。 封闭元素是封闭父元素的子
 16. Comments are written in HTML using the following syntax: <!-- comment -->.
     注释使用以下语法以HTML编写：<！-注释->。
 
+
+More: https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet
 # ------------------------------------------------------------------------------------------------------------------------------------------
 example:
 code:
