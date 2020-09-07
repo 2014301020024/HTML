@@ -49,11 +49,15 @@ HTML元素可以嵌套在其他元素内。 封闭元素是封闭父元素的子
 
 13. Anchor tags (<a>) are used to link to internal pages, external pages or content on the same page. You can create sections on a webpage and jump to them using <a> tags and adding ids to the elements you wish to jump to.
     锚标记（<a>）用于链接到内部页面，外部页面或同一页面上的内容。您可以在网页上创建部分，然后使用<a>标记跳转至这些部分，并向希望跳转的元素添加ID。
+
+14. For a link to open in a new window, the target attribute in element <a> requires a value of _blank. 
+    The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
+    为了在新窗口中打开链接，target属性要求值为_blank。就像href属性一样，可以将target属性直接添加到anchor元素的开始标记中。
     
-14. Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser. Indentation also helps make code easier to read. It makes parent-child relationships visible.
+15. Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser. Indentation also helps make code easier to read. It makes parent-child relationships visible.
     HTML元素之间的空格有助于使代码更易于阅读，同时不更改元素在浏览器中的显示方式。缩进还有助于使代码更易于阅读。它使父子关系可见。
     
-15. Comments are written in HTML using the following syntax: <!-- comment -->.
+16. Comments are written in HTML using the following syntax: <!-- comment -->.
     注释使用以下语法以HTML编写：<！-注释->。
 
 # ------------------------------------------------------------------------------------------------------------------------------------------
