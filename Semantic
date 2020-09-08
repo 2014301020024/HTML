@@ -1,20 +1,30 @@
 1. Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
-
+   语义HTML通过特定元素为页面引入含义，这些元素提供有关标签之间的内容的上下文。
+   
 2. Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
-
+   语义HTML是一种现代标准，使使用屏幕阅读器翻译网页并改善您网站的SEO的人们可以访问该网站。
+   
 3. <header>, <nav> , <main> and <footer> create the basic structure of the webpage.
-
+   header>，<nav>，<main>和<footer>创建网页的基本结构。
+   
 4. <section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
-
+   <section>定义文档中的元素，例如章节，标题或文档中具有相同主题的任何其他区域。
+    
 5. <article> holds content that makes sense on its own such as articles, blogs, comments, etc.
-
+   <article>拥有自己有意义的内容，例如文章，博客，评论等。
+   
 6. <aside> contains information that is related to the main content, but not required in order to understand the dominant information.
-
+   <aside>包含与主要内容相关的信息，但对于理解主要信息不是必需的。
+   
 7. <figure> encapsulates all types of media.
-
+   <figure>封装所有类型的媒体。
+   
 8. <figcaption> is used to describe the media in <figure>.
+   <figcaption>用于描述<figure>中的媒体。
+   
+9. <video>, <embed>, and <audio> elements are used for media files.
+   <video>，<embed>和<audio>元素用于媒体文件。
 
-8. <video>, <embed>, and <audio> elements are used for media files.
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 example：
 code:
@@ -86,4 +96,6 @@ code:
   </body>
 </html>
 
-end.
+# ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+done.
